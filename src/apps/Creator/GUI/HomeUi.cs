@@ -982,7 +982,7 @@ namespace Creator.GUI
             catch (Exception)
             {
                 MessageBox.Show(
-                    @"Sorry, you cannot mix option types. First remove the existing options then replace them.", "Error",
+                    "Sorry, you cannot mix option types. First remove the existing options then replace them.", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
