@@ -222,7 +222,6 @@ namespace Creator.GUI
 
             question.Explanation = txt_explanation.Text;
             question.Image = (Bitmap) pct_image.Image;
-            question.No = trv_view_exam.SelectedNode.Index + 1;
             question.Options.Clear();
             if (question.IsMultipleChoice)
             {
